@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: url(istockphoto-1328689113-612x612.jpg) no-repeat center center fixed;
+    background: url(anh-background-mung-sinh-nhat_052645425.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -14,16 +14,28 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(132, 130, 130, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     font-size: 2.5em;
-    color: #d91313;
+    color: #ff69b4;
 }
 
 p {
     font-size: 1.2em;
-    color: #bf0ba7fa;
+    color: #cd0a10;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
 }
 
 button {
@@ -34,6 +46,10 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .balloons {
